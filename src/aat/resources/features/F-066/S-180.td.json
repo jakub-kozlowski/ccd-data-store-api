@@ -5,6 +5,7 @@
 
 	"specs": [
 		"an active profile in CCD",
+    "contains a case Id for just created case",
 		"contains an invalid event trigger",
 		"includes a HTTP 404 'Not Found'"
 	],
@@ -16,10 +17,6 @@
   },
 	"expectedResponse": {
     "_extends_": "Common_404_Response",
-		"headers": {
-      "Content-Length" : "[[ANY]]",
-      "Content-Encoding" : "gzip"
-    },
     "body" : {
       "exception" : "[[ANY]]",
       "message" : "[[ANY]]",

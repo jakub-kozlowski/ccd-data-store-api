@@ -5,6 +5,7 @@
 
 	"specs": [
 		"an active profile in CCD",
+    "contains a case Id for just created case",
 		"includes the event start trigger for the case just created, along with a HTTP 200 OK"
 	],
 	"request": {
@@ -17,8 +18,6 @@
     "responseMessage" : "OK",
     "headers":{
       "_extends_": "Common_Response_Headers",
-      "Content-Encoding" : "gzip",
-      "Content-Length" : "[[ANY]]",
       "Vary" : "Accept-Encoding"
     },
     "body" : {
