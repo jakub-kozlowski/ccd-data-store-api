@@ -1,0 +1,31 @@
+{
+  "_guid_": "F-460_Test_Data_Base_Get_Dcoument",
+  "productName": "CCD Data Store",
+  "operationName": "Get Case for Case Worker",
+  "specs": [
+    "Get the document from Document Store"
+  ],
+  "method": "GET",
+  "uri": "/documents/{documentId}",
+  "user": {
+
+  },
+  "request": {
+    "headers": {
+      "_extends_": "Common_Request_Headers"
+    },
+    "pathVariables": {
+      "documentId": "e56f0aea-4a5f-46d5-82d3-01b536420870"
+    }
+  },
+  "expectedResponse": {
+    "headers": {
+      "Content-Type": "[[ANY]]",
+      "Content-Length": "[[ANY]]",
+      "Content-Encoding": "gzip",
+      "Transfer-Encoding" : "chunked",
+      "Connection" : "keep-alive",
+      "Keep-Alive" : "timeout=60"
+    }
+  }
+}
